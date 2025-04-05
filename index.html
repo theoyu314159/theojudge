@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>theojudge-簡易線上解題系統</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+    }
+    header {
+      background-color: #FF77FF;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 { font-size: 1.8rem; }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #eef4fb;
+    }
+    .hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .cta-button {
+      padding: 0.75rem 1.5rem;
+      background-color: #FF77FF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cta-button:hover { background-color: #FF77FF; }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 3rem 2rem;
+      background-color: white;
+    }
+    .feature {
+      max-width: 250px;
+      text-align: center;
+    }
+    footer {
+      background-color: #FF77FF;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>解題系統</h1>
+    <nav>
+      <a href="/">首頁</a>
+      <a href="/problems">題目列表</a>
+      <a href="/about">介紹</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>歡迎來到線上解題系統</h2>
+      <p>練習寫程式、提升解題能力，從這裡開始！</p>
+      <a href="/problems" class="cta-button">開始解題</a>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>支援python</h3>
+        <p>目前最夯的程式語言。</p>
+      </div>
+      <div class="feature">
+        <h3>無須註冊</h3>
+        <p>隨時隨地免費審題。</p>
+      </div>
+      <div class="feature">
+        <h3>快速審題</h3>
+        <p>僅需幾秒的時間即可完成審題。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 theojudge</p>
+  </footer>
+</body>
+</html>
+
